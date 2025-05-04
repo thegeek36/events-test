@@ -1,0 +1,48 @@
+[
+    {
+      "slNo": 1,
+      "eventName": "Tech Talk 2025",
+      "description": "An insightful talk about the future of AI and machine learning trends.",
+      "speaker": {
+        "name": "Dr. Priya Verma",
+        "profile": "AI Researcher at XYZ Institute",
+        "image": "https://picsum.photos/id/64/200/300",
+        "linkedin": "https://linkedin.com/in/priyaverma"
+      },
+      "skills": ["AI", "Machine Learning", "Agentic AI", "Chatbots"],
+      "status": "current", 
+      "registrationLink": "https://forms.gle/xyz123",
+      "noOfRegistrations": 120
+    },
+    {
+      "slNo": 2,
+      "eventName": "Innovation Fest 2024",
+      "description": "Celebrating the top innovations and tech breakthroughs of the year.",
+      "speaker": {
+        "name": "Mr. Arjun Rao",
+        "profile": "Founder of FutureTech",
+        "image": "https://picsum.photos/id/199/200/300",
+        "linkedin": "https://linkedin.com/in/arjunrao"
+      },
+      "skills": ["Startups", "Tech Trends", "Entrepreneurship", "Innovation"],
+      "status": "past",
+      "registrationLink": null,
+      "noOfRegistrations": 250
+    },
+    {
+      "slNo": 3,
+      "eventName": "Startup Summit 2026",
+      "description": "Networking event and idea showcase for budding startups.",
+      "speaker": {
+        "name": "Ms. Ananya Sen",
+        "profile": "Venture Capitalist at StartX",
+        "image": "https://picsum.photos/id/789/200/300",
+        "linkedin": "https://linkedin.com/in/ananyasen"
+      },
+      "skills": ["Startup Funding", "Placements", "Networking", "Business Growth"],
+      "status": "future",
+      "registrationLink": null,
+      "noOfRegistrations": 0
+    }
+  ]
+  

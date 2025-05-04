@@ -1,0 +1,104 @@
+/* responsive.css - Media queries for responsive design */
+
+/* Large Screens */
+@media (min-width: 1200px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+/* Medium Screens */
+@media (max-width: 992px) {
+    .events-container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Small Screens / Tablets */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .header-content {
+        position: relative;
+    }
+    
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--primary-color);
+        flex-direction: column;
+        padding: 15px;
+        box-shadow: var(--shadow-md);
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links li {
+        margin: 10px 0;
+    }
+    
+    .mobile-menu-icon {
+        display: block;
+    }
+    
+    .page-banner {
+        padding: 40px 0 30px;
+    }
+    
+    .page-banner h1 {
+        font-size: 2rem;
+    }
+    
+    .events-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .filter-btn {
+        padding: 10px 18px;
+        font-size: 0.85rem;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
+
+/* Extra Small Screens / Mobile */
+@media (max-width: 480px) {
+    .page-banner h1 {
+        font-size: 1.8rem;
+    }
+    
+    .page-banner p {
+        font-size: 1rem;
+    }
+    
+    .event-banner {
+        height: 150px;
+    }
+    
+    .event-title {
+        font-size: 1.2rem;
+    }
+    
+    .event-filters {
+        flex-wrap: wrap;
+    }
+    
+    .filter-btn {
+        width: calc(50% - 5px);
+        text-align: center;
+    }
+}
